@@ -23,7 +23,7 @@ jobs:
           pre-commit run --all-files
       - name: Run tests
         run: |
-          pytest
+          python -m pytest
   publish:
     if: github.ref == 'refs/heads/master'
     needs: qa
