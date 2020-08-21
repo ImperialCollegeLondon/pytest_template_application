@@ -37,4 +37,8 @@ To use this repository as a template for your own application:
 
 1. Edit/replace `fibonacci.py`, `test_fibonacci.py`, `setup.cfg` and `ci.yml` as required
 
-For a more comprehensive project template consistent with many Research Software Engineering best practices please consider using this [Python Template](https://github.com/NLeSC/python-template) from our colleagues at the Netherlands eScience Center.
+Notes:
+
+- For a more comprehensive project template consistent with many Research Software Engineering best practices please consider using this [Python Template](https://github.com/NLeSC/python-template) from our colleagues at the Netherlands eScience Center.
+
+- GitHub Packages does not currently (08/2020) support unauthenticated pull access and is therefore not a drop-in replacement for Docker Hub.
